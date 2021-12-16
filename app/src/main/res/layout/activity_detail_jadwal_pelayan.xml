@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.mainActivity.DetailJadwalPelayanActivity"
+    tools:context=".jemaat.activity.mainActivity.DetailJadwalPelayanActivity"
     android:background="@drawable/background_apps">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -51,7 +51,7 @@
                 />
 
             <androidx.appcompat.widget.AppCompatImageButton
-                android:id="@+id/btnLogout_DetailJadwalPelayan"
+                android:id="@+id/btnLogout_CancelRegistrasiIbadah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
@@ -65,7 +65,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
-        android:id="@+id/tvNamaIbadah_DetailJadwalPelayan"
+        android:id="@+id/tvNamaIbadah_CancelRegistrasiIbadah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/doaraya"
@@ -78,7 +78,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
-        android:id="@+id/tvJamTanggal_DetailJadwalPelayan"
+        android:id="@+id/tvJamTanggal_CancelRegistrasiIbadah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -88,17 +88,17 @@
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvNamaIbadah_DetailJadwalPelayan" />
+        app:layout_constraintTop_toBottomOf="@id/tvNamaIbadah_CancelRegistrasiIbadah" />
 
     <View
-        android:id="@+id/viewGarisPutih_DetailJadwalPelayan"
+        android:id="@+id/viewGarisPutih_CancelRegistrasiIbadah"
         android:layout_width="415dp"
         android:layout_height="2dp"
         android:layout_marginTop="15dp"
         android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvJamTanggal_DetailJadwalPelayan"/>
+        app:layout_constraintTop_toBottomOf="@id/tvJamTanggal_CancelRegistrasiIbadah"/>
 
     <TextView
         android:id="@+id/tvDaftarPelayan_DetailJadwalPelayan"
@@ -109,7 +109,7 @@
         android:text="@string/daftarpelayan"
         android:textColor="@color/orange"
         android:textSize="21sp"
-        app:layout_constraintTop_toBottomOf="@id/viewGarisPutih_DetailJadwalPelayan"
+        app:layout_constraintTop_toBottomOf="@id/viewGarisPutih_CancelRegistrasiIbadah"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />

@@ -1,12 +1,12 @@
-package com.example.hope.activity.startActivity
+package com.example.hope.jemaat.activity.startActivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.hope.R
 
-class ForgotPasswordActivity : AppCompatActivity() {
+class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_forgot_password)
+        setContentView(R.layout.activity_signin)
     }
 }

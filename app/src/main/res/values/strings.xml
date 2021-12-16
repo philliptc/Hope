@@ -30,7 +30,6 @@
     <string name="jadwalibadah">Jadwal Ibadah</string>
     <string name="logout">Logout</string>
     <string name="logout_dialog">Apakah anda yakin untuk keluar?</string>
-    <string name="peoplename">Phillip Tothalove Chrisyuono</string>
     <string name="nomortelefon">No Telepon</string>
     <string name="tanggallahir">Tgl Lahir</string>
     <string name="isitanggallahir">03-01-2001</string>
@@ -56,4 +55,8 @@
     <string name="isipelayanmusik">Sdr Yonathan, Sdr Jeri, Sdr Yosia, Sdr Rico, Sdr Vito</string>
     <string name="pelayanballet">Tim Ballet : </string>
     <string name="isipelayanballet">Sdri Lian, Sdri Angel, Sdri Lala</string>
+    <string name="yakinmaubatal">Apakah anda yakin membatalkan registrasi ini?</string>
+    <string name="detailregistrasi">Detail Registrasi</string>
+    <string name="namaygterdaftar">Nama yang terdaftar</string>
+    <string name="btnBatalkan">Batalkan</string>
 </resources>

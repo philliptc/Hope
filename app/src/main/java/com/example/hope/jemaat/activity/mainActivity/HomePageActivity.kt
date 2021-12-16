@@ -1,4 +1,4 @@
-package com.example.hope.activity.mainActivity
+package com.example.hope.jemaat.activity.mainActivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

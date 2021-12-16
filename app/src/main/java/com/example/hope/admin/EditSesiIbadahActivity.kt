@@ -1,12 +1,12 @@
-package com.example.hope.activity.mainActivity
+package com.example.hope.admin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.hope.R
 
-class EditProfileJemaatActivity : AppCompatActivity() {
+class EditSesiIbadahActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_edit_profile_jemaat)
+        setContentView(R.layout.activity_edit_sesi_ibadah)
     }
 }

@@ -10,25 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hope">
         <activity
-            android:name=".activity.mainActivity.CancelRegistrasiIbadahActivity"
+            android:name=".admin.EditSesiIbadahActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.mainActivity.DetailJadwalPelayanActivity"
+            android:name=".jemaat.activity.mainActivity.CancelRegistrasiIbadahActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.mainActivity.EditProfileJemaatActivity"
+            android:name=".jemaat.activity.mainActivity.DetailJadwalPelayanActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.startActivity.WelcomePageActivity"
+            android:name=".jemaat.activity.mainActivity.EditProfileJemaatActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.startActivity.EmailReceivedActivity"
+            android:name=".jemaat.activity.startActivity.WelcomePageActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.startActivity.ForgotPasswordActivity"
+            android:name=".jemaat.activity.startActivity.EmailReceivedActivity"
             android:exported="true" />
         <activity
-            android:name=".activity.mainActivity.HomePageActivity"
+            android:name=".jemaat.activity.startActivity.ForgotPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".jemaat.activity.mainActivity.HomePageActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,12 +40,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.startActivity.SignUpActivity"
+            android:name=".jemaat.activity.startActivity.SignUpActivity"
             android:exported="true"
             android:label="@string/title_activity_sign_up"
             android:theme="@style/Theme.Hope.NoActionBar" />
         <activity
-            android:name=".activity.startActivity.SignInActivity"
+            android:name=".jemaat.activity.startActivity.SignInActivity"
             android:exported="true" />
 
         <meta-data

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
     android:fitsSystemWindows="true"
-    tools:context=".activity.mainActivity.HomePageActivity">
+    tools:context=".jemaat.activity.mainActivity.HomePageActivity">
 <!--    tools:openDrawer="start">-->
 
     <androidx.constraintlayout.widget.ConstraintLayout

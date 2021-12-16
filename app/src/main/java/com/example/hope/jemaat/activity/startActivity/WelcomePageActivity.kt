@@ -1,4 +1,4 @@
-package com.example.hope.activity.startActivity
+package com.example.hope.jemaat.activity.startActivity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

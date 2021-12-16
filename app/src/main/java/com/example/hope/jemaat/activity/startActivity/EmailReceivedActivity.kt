@@ -1,12 +1,12 @@
-package com.example.hope.activity.startActivity
+package com.example.hope.jemaat.activity.startActivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.hope.R
 
-class SignUpActivity : AppCompatActivity() {
+class EmailReceivedActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signup)
+        setContentView(R.layout.activity_email_received)
     }
 }

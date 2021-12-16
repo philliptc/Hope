@@ -31,7 +31,7 @@
         android:id="@+id/tvPhone_NavigationHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nomorhppengguna"
+        android:text="@string/isinomortelefon"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
