@@ -9,7 +9,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
 
         <TextView
             android:id="@+id/tvTitle_RegistrasiIbadah"
@@ -29,13 +30,13 @@
             tools:listitem="@layout/item_jadwalibadah"
             android:layout_marginTop="21dp"
             android:layout_marginBottom="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintBottom_toTopOf="@+id/ivLogo_JadwalIbadah"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvTitle_RegistrasiIbadah" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/ivLogo_JadwalIbadah"
             android:layout_width="70dp"
             android:layout_height="79dp"
             android:layout_marginEnd="16dp"

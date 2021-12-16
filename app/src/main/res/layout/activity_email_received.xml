@@ -11,7 +11,7 @@
         android:id="@+id/btnBack_EmailReceived"
         android:layout_width="23dp"
         android:layout_height="23dp"
-        android:src="@drawable/ic_back"
+        android:background="@drawable/ic_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="18dp"

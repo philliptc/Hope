@@ -96,7 +96,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:background="@drawable/ic_eyes"
+                android:background="@drawable/ic_eye"
                 />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>

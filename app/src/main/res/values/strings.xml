@@ -22,7 +22,7 @@
     <string name="information_emailreceived">Check kotak masuk dan klik pada link yang sudah diberikan</string>
     <string name="btnSelesai">Selesai</string>
     <string name="namapengguna">Phillip Tothalove Chrisyuono</string>
-    <string name="nomorhppengguna">087759655356</string>
+    <string name="isinomortelefon">087759655356</string>
     <string name="navigation_drawer_open">Open Navigation Drawer</string>
     <string name="navigation_drawer_close">Close Navigation Drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -31,7 +31,29 @@
     <string name="logout">Logout</string>
     <string name="logout_dialog">Apakah anda yakin untuk keluar?</string>
     <string name="peoplename">Phillip Tothalove Chrisyuono</string>
-    <string name="nomorhp">No Telepon</string>
-    <string name="tgllahir">Tgl Lahir</string>
-    <string name="tanggal">03-01-2001</string>
+    <string name="nomortelefon">No Telepon</string>
+    <string name="tanggallahir">Tgl Lahir</string>
+    <string name="isitanggallahir">03-01-2001</string>
+    <string name="alamat">Alamat</string>
+    <string name="isialamat">Perumahan Griya Indah Blok P-11 Jombang</string>
+    <string name="jeniskelamin">Jenis Kelamin</string>
+    <string name="isijeniskelamin">Laki - Laki</string>
+    <string name="isipassword">***************</string>
+    <string name="btnSimpan">Simpan</string>
+    <string name="btnGantiProfile">Ganti Profile</string>
+    <string name="profile">Profile</string>
+    <string name="scanqr">Scan QR</string>
+    <string name="jadwalpelayan">Jadwal Pelayan</string>
+    <string name="registrasiibadah">Registrasi Ibadah</string>
+    <string name="doaraya">Doa Raya</string>
+    <string name="jadwaldoaraya">Rabu, 27 Oktober 2021 - 18.00</string>
+    <string name="daftarpelayan">Daftar Pelayan</string>
+    <string name="pelayanfirman">Firman Tuhan :</string>
+    <string name="isipelayanfirman">Pdt. Petrus Harianto</string>
+    <string name="pelayanpujian">WL dan Singer : </string>
+    <string name="isipelayanpujian">Bpk Bayu, Ibu Ledi, Sdr Vava, Bpk Ipung</string>
+    <string name="pelayanmusik">Tim Musik : </string>
+    <string name="isipelayanmusik">Sdr Yonathan, Sdr Jeri, Sdr Yosia, Sdr Rico, Sdr Vito</string>
+    <string name="pelayanballet">Tim Ballet : </string>
+    <string name="isipelayanballet">Sdri Lian, Sdri Angel, Sdri Lala</string>
 </resources>

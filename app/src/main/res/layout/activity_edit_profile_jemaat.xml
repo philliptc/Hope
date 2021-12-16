@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.mainActivity.EditProfileJemaatActivity"
+    android:background="@drawable/background_apps">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_EditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnBack_EditProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/ic_back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvTitle_EditProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/profile"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/btnBack_EditProfile"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnLogout_EditProfileJemaat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_logout"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/etName_EditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/peoplename"
+        android:background="@null"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appbar_EditProfile"/>
+
+    <View
+        android:id="@+id/viewGarisPutih_EditProfileJemaat"
+        android:layout_width="415dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etName_EditProfile"/>
+
+    <LinearLayout
+        android:id="@+id/llDataDiri_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewGarisPutih_EditProfileJemaat">
+
+        <LinearLayout
+            android:id="@+id/llNomerTelefon_EditProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/tvNomerTelefon_EditProfile"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_telefon"
+                android:drawablePadding="15dp"
+                android:text="@string/nomortelefon"
+                android:textColor="@color/orange"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/etIsiNomerTelefon_EditProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/isinomortelefon"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:layout_marginStart="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTanggalLahir_EditProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/tvTanggalLahir_EditProfile"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_birthday"
+                android:drawablePadding="15dp"
+                android:text="@string/tanggallahir"
+                android:textColor="@color/orange"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/etIsiTanggalLahir_EditProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/isitanggallahir"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:layout_marginStart="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAlamat_EditProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/tvAlamat_EditProfile"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_address"
+                android:drawablePadding="15dp"
+                android:text="@string/alamat"
+                android:textColor="@color/orange"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/etIsiAlamat_EditProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/isialamat"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:layout_marginStart="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llJenisKelamin_EditProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/tvJenisKelamin_EditProfile"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_jeniskelamin"
+                android:drawablePadding="15dp"
+                android:text="@string/jeniskelamin"
+                android:textColor="@color/orange"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/etIsiJenisKelamin_EditProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/isijeniskelamin"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:layout_marginStart="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPassword_EditProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/tvPassword_EditProfile"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_password"
+                android:drawablePadding="15dp"
+                android:text="@string/password"
+                android:textColor="@color/orange"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/etIsiPassword_EditProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/isipassword"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:layout_marginStart="20dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_closedeye"
+                android:layout_marginStart="17dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSimpan_EditProfile"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        android:text="@string/btnSimpan"
+        android:textAllCaps="false"
+        android:background="@drawable/style_button"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

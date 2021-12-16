@@ -10,15 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hope">
         <activity
+            android:name=".activity.mainActivity.CancelRegistrasiIbadahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.mainActivity.DetailJadwalPelayanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.mainActivity.EditProfileJemaatActivity"
+            android:exported="true" />
+        <activity
             android:name=".activity.startActivity.WelcomePageActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
+            android:exported="true" />
         <activity
             android:name=".activity.startActivity.EmailReceivedActivity"
             android:exported="true" />
@@ -28,7 +30,11 @@
         <activity
             android:name=".activity.mainActivity.HomePageActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".activity.startActivity.SignUpActivity"
@@ -37,9 +43,7 @@
             android:theme="@style/Theme.Hope.NoActionBar" />
         <activity
             android:name=".activity.startActivity.SignInActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
 
         <meta-data
             android:name="com.google.mlkit.vision.DEPENDENCIES"

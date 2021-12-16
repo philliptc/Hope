@@ -3,20 +3,20 @@
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_registrasi"
             android:icon="@drawable/ic_add"
-            android:title="Registrasi Ibadah"/>
+            android:title="@string/registrasiibadah"/>
 
         <item android:id="@+id/nav_jadwalpelayan"
             android:icon="@drawable/ic_calendar"
-            android:title="Jadwal Pelayan"/>
+            android:title="@string/jadwalpelayan"/>
     </group>
 
     <group android:checkableBehavior="single">
             <item android:id="@+id/nav_qrcode"
                 android:icon="@drawable/ic_qrcode"
-                android:title="Scan QR"/>
+                android:title="@string/scanqr"/>
 
             <item android:id="@+id/nav_profile"
                 android:icon="@drawable/ic_profile"
-                android:title="Profile"/>
+                android:title="@string/profile"/>
     </group>
 </menu>

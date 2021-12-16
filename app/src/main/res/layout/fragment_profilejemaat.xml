@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment"
+    android:background="@drawable/background_apps">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/etName_Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/peoplename"
+            android:background="@null"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view_WhiteLineName"
+            android:layout_width="415dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etName_Profile"/>
+
+        <LinearLayout
+            android:id="@+id/llDataDiri_Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_WhiteLineName">
+
+            <LinearLayout
+                android:id="@+id/llNomerTelefon_Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:id="@+id/tvNomerTelefon_Profile"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_telefon"
+                    android:drawablePadding="15dp"
+                    android:text="@string/nomortelefon"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/tvIsiNomerTelefon_Profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="@string/isinomortelefon"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llTanggalLahir_Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:id="@+id/tvTanggalLahir_Profile"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_birthday"
+                    android:drawablePadding="15dp"
+                    android:text="@string/tanggallahir"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/tvIsiTanggalLahir_Profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="@string/isitanggallahir"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llAlamat_Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:id="@+id/tvAlamat_Profile"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_address"
+                    android:drawablePadding="15dp"
+                    android:text="@string/alamat"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/tvIsiAlamat_Profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="@string/isialamat"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llJenisKelamin_Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:id="@+id/tvJenisKelamin_Profile"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_jeniskelamin"
+                    android:drawablePadding="15dp"
+                    android:text="@string/jeniskelamin"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/tvIsiJenisKelamin_Profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="@string/isijeniskelamin"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"
+                    android:layout_marginStart="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llPassword_Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp">
+
+                <TextView
+                    android:id="@+id/tvPassword_Profile"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_password"
+                    android:drawablePadding="15dp"
+                    android:text="@string/password"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/tvIsiPassword_Profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="@string/isipassword"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"
+                    android:layout_marginStart="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ic_eye"
+                    android:layout_marginStart="17dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGantiProfile_Profile"
+            android:layout_width="150dp"
+            android:layout_height="34dp"
+            android:text="@string/btnGantiProfile"
+            android:textAllCaps="false"
+            android:background="@drawable/style_button"
+            android:layout_marginBottom="70dp"
+            android:layout_marginStart="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
