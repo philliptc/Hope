@@ -59,4 +59,10 @@
     <string name="detailregistrasi">Detail Registrasi</string>
     <string name="namaygterdaftar">Nama yang terdaftar</string>
     <string name="btnBatalkan">Batalkan</string>
+    <string name="editsesiibadah">Edit Sesi Ibadah</string>
+    <string name="tulisannamaibadah">Nama Ibadah : </string>
+    <string name="tulisanharitanggal">Hari dan Tanggal : </string>
+    <string name="tulisanjam">Jam : </string>
+    <string name="jamdoaraya">18.00</string>
+    <string name="haritanggaldoaraya">Rabu, 27 Oktober 2021</string>
 </resources>

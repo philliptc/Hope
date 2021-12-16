@@ -4,6 +4,202 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".admin.EditSesiIbadahActivity">
+    tools:context=".admin.EditSesiIbadahActivity"
+    android:background="@drawable/background_apps">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_EditSesiIbadah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnBack_EditSesiIbadah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/ic_back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvTitle_EditSesiIbadah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/church_name"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@id/btnBack_EditSesiIbadah"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnLogout_EditSesiIbadah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_logout"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/tvEditSesiIbadah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editsesiibadah"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appbar_EditSesiIbadah" />
+
+    <View
+        android:id="@+id/viewGarisPutih_EditSesiIbadah"
+        android:layout_width="415dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvEditSesiIbadah"/>
+
+    <LinearLayout
+        android:id="@+id/llEditData_EditSesiIbadah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="25dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/viewGarisPutih_EditSesiIbadah"
+        app:layout_constraintStart_toStartOf="parent">
+        
+        <LinearLayout
+            android:id="@+id/llNamaIbadah_EditSesiIbadah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/tvNamaIbadah_EditSesiIbadah"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/tulisannamaibadah"
+                android:textColor="@color/orange"
+                android:textSize="17sp"
+                />
+
+            <EditText
+                android:id="@+id/etIsiNamaIbadah_EditSesiIbadah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:background="@null"
+                android:text="@string/doaraya"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/llHariTanggal_EditSesiIbadah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="25dp">
+
+        <TextView
+            android:id="@+id/tvHariTanggal_EditSesiIbadah"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/tulisanharitanggal"
+            android:textColor="@color/orange"
+            android:textSize="17sp"
+            />
+
+        <EditText
+            android:id="@+id/etIsiHariTanggal_EditSesiIbadah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@null"
+            android:text="@string/haritanggaldoaraya"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llJam_EditSesiIbadah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/tvJam_EditSesiIbadah"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/tulisanjam"
+                android:textColor="@color/orange"
+                android:textSize="17sp"
+                />
+
+            <EditText
+                android:id="@+id/etIsiJam_EditSesiIbadah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:background="@null"
+                android:text="@string/jamdoaraya"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSimpan_EditSesiIbadah"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        android:text="@string/btnSimpan"
+        android:textAllCaps="false"
+        android:background="@drawable/style_button"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

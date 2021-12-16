@@ -21,7 +21,7 @@
             android:layout_height="wrap_content">
 
             <androidx.appcompat.widget.AppCompatImageButton
-                android:id="@+id/btnBack_DetailJadwalPelayan"
+                android:id="@+id/btnBack_EditSesiIbadah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
@@ -34,7 +34,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/tvTitle_DetailJadwalPelayan"
+                android:id="@+id/tvTitle_EditSesiIbadah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
@@ -46,12 +46,12 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toEndOf="@id/btnBack_DetailJadwalPelayan"
+                app:layout_constraintStart_toEndOf="@id/btnBack_EditSesiIbadah"
                 app:layout_constraintBottom_toBottomOf="parent"
                 />
 
             <androidx.appcompat.widget.AppCompatImageButton
-                android:id="@+id/btnLogout_CancelRegistrasiIbadah"
+                android:id="@+id/btnLogout_EditSesiIbadah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
@@ -135,7 +135,7 @@
             android:layout_marginBottom="25dp">
 
             <TextView
-                android:id="@+id/tvPelayanFirman_DetailJadwalPelayan"
+                android:id="@+id/tvNamaIbadah_EditSesiIbadah"
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:gravity="right"
