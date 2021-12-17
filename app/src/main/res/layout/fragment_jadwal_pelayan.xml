@@ -12,20 +12,20 @@
         android:layout_height="match_parent">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvRegistrasiIbadah"
+            android:id="@+id/rvJadwalIbadah_JadwalPelayan"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             tools:listitem="@layout/item_jadwalpelayan"
             android:layout_marginTop="21dp"
             android:layout_marginBottom="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/imageView_JadwalPelayan"
+            app:layout_constraintBottom_toTopOf="@+id/ivLogo_JadwalPelayan"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
              />
 
         <ImageView
-            android:id="@+id/imageView_JadwalPelayan"
+            android:id="@+id/ivLogo_JadwalPelayan"
             android:layout_width="70dp"
             android:layout_height="79dp"
             android:layout_marginEnd="16dp"

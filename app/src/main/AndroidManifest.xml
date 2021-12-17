@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hope">
         <activity
-            android:name=".admin.EditSesiIbadahActivity"
+            android:name=".admin.activity.EditJadwalIbadahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.activity.DetailRegistrasiIbadahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.activity.EditSesiIbadahActivity"
             android:exported="true" />
         <activity
             android:name=".jemaat.activity.mainActivity.CancelRegistrasiIbadahActivity"

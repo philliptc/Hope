@@ -65,4 +65,8 @@
     <string name="tulisanjam">Jam : </string>
     <string name="jamdoaraya">18.00</string>
     <string name="haritanggaldoaraya">Rabu, 27 Oktober 2021</string>
+    <string name="btnEdit">Edit</string>
+    <string name="jumlahjemaatterdaftar">Jumlah Jemaat Terdaftar</string>
+    <string name="daftarnamajemaat">Daftar Nama Jemaat Terdaftar</string>
+    <string name="btnTambahIbadah">Tambah Ibadah</string>
 </resources>

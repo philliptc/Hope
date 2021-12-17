@@ -10,7 +10,7 @@
     >
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/ivProfile_NavigationHeader"
+        android:id="@+id/ivProfilePicture_NavigationHeader"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@color/black"
@@ -18,17 +18,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvUserName_NavigationHeader"
+        android:id="@+id/tvNamaPengguna_NavigationHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/namapengguna"
         android:textSize="17sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintBottom_toTopOf="@id/tvPhone_NavigationHeader"
+        app:layout_constraintBottom_toTopOf="@id/tvNomerTelefon_NavigationHeader"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/tvPhone_NavigationHeader"
+        android:id="@+id/tvNomerTelefon_NavigationHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/isinomortelefon"

@@ -29,7 +29,7 @@
         android:layout_marginTop="46dp"/>
 
     <TextView
-        android:id="@+id/tvChurch_EmailReceived"
+        android:id="@+id/tvNamaGereja_EmailReceived"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/church_name"
@@ -40,7 +40,7 @@
         android:layout_marginTop="6dp"/>
 
     <TextView
-        android:id="@+id/tvInputEmail_EmailReceived"
+        android:id="@+id/tvCheckEmail_EmailReceived"
         android:layout_width="286dp"
         android:gravity="center"
         android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
         android:textColor="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvChurch_EmailReceived"
+        app:layout_constraintTop_toBottomOf="@id/tvNamaGereja_EmailReceived"
         android:layout_marginTop="85dp"/>
 
     <androidx.appcompat.widget.AppCompatImageButton
@@ -62,7 +62,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnKirim_ForgotPassword"
+        android:id="@+id/btnSelesai_EmailReceived"
         android:layout_width="88dp"
         android:layout_height="32dp"
         android:text="@string/btnSelesai"
@@ -72,6 +72,5 @@
         android:layout_marginEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

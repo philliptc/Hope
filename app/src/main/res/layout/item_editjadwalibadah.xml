@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="30dp"
+    >
+
+    <TextView
+        android:id="@+id/tvNamaIbadah_EditJadwalIbadah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini Jadwal 1"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTanggalHari_EditJadwalIbadah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini Tanggal Hari"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNamaIbadah_EditJadwalIbadah"
+        />
+
+    <TextView
+        android:id="@+id/tvJam_EditJadwalIbadah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini Jam"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTanggalHari_EditJadwalIbadah"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnDelete_EditJadwalIbadah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_delete"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnEdit_EditJadwalIbadah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_edit"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnDelete_EditJadwalIbadah"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnQRCode_EditJadwalIbadah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_qrcode_orange"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnEdit_EditJadwalIbadah"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

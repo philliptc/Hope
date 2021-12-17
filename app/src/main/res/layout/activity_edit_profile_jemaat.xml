@@ -51,7 +51,7 @@
                 />
 
             <androidx.appcompat.widget.AppCompatImageButton
-                android:id="@+id/btnLogout_EditProfileJemaat"
+                android:id="@+id/btnLogout_EditProfile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
@@ -67,7 +67,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <EditText
-        android:id="@+id/etName_EditProfile"
+        android:id="@+id/etNama_EditProfile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -81,17 +81,17 @@
         app:layout_constraintTop_toBottomOf="@id/appbar_EditProfile"/>
 
     <View
-        android:id="@+id/viewGarisPutih_EditProfileJemaat"
+        android:id="@+id/viewGarisPutih_EditProfile"
         android:layout_width="415dp"
         android:layout_height="2dp"
         android:layout_marginTop="16dp"
         android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etName_EditProfile"/>
+        app:layout_constraintTop_toBottomOf="@id/etNama_EditProfile"/>
 
     <LinearLayout
-        android:id="@+id/llDataDiri_Profile"
+        android:id="@+id/llDataDiri_EditProfile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -99,7 +99,7 @@
         android:layout_marginHorizontal="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/viewGarisPutih_EditProfileJemaat">
+        app:layout_constraintTop_toBottomOf="@id/viewGarisPutih_EditProfile">
 
         <LinearLayout
             android:id="@+id/llNomerTelefon_EditProfile"
