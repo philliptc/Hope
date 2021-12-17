@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".jemaat.activity.mainActivity.EditProfileJemaatActivity"
+    tools:context=".admin.activity.ProfileJemaatAdminActivity"
     android:background="@drawable/background_apps">
 
     <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appbar_EditProfile"
+        android:id="@+id/appbar_ProfileJemaatAdmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/orange"
@@ -21,7 +21,7 @@
             android:layout_height="wrap_content">
 
             <androidx.appcompat.widget.AppCompatImageButton
-                android:id="@+id/btnBack_EditProfile"
+                android:id="@+id/btnBack_ProfileJemaatAdmin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
@@ -34,7 +34,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/tvTitle_EditProfile"
+                android:id="@+id/tvTitle_ProfileJemaatAdmin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
@@ -46,12 +46,12 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toEndOf="@id/btnBack_EditProfile"
+                app:layout_constraintStart_toEndOf="@id/btnBack_ProfileJemaatAdmin"
                 app:layout_constraintBottom_toBottomOf="parent"
                 />
 
             <androidx.appcompat.widget.AppCompatImageButton
-                android:id="@+id/btnLogout_EditProfile"
+                android:id="@+id/btnLogout_ProfileJemaatAdmin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
@@ -61,11 +61,10 @@
                 app:layout_constraintTop_toTopOf="parent"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </com.google.android.material.appbar.AppBarLayout>
 
     <EditText
-        android:id="@+id/etNama_EditProfile"
+        android:id="@+id/etNama_ProfileJemaatAdmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -76,20 +75,20 @@
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/appbar_EditProfile"/>
+        app:layout_constraintTop_toBottomOf="@id/appbar_ProfileJemaatAdmin"/>
 
     <View
-        android:id="@+id/viewGarisPutih_EditProfile"
+        android:id="@+id/viewGarisPutih_ProfileJemaatAdmin"
         android:layout_width="415dp"
         android:layout_height="2dp"
         android:layout_marginTop="16dp"
         android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etNama_EditProfile"/>
+        app:layout_constraintTop_toBottomOf="@id/etNama_ProfileJemaatAdmin"/>
 
     <LinearLayout
-        android:id="@+id/llDataDiri_EditProfile"
+        android:id="@+id/llDataDiri_ProfileJemaatAdmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -97,10 +96,10 @@
         android:layout_marginHorizontal="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/viewGarisPutih_EditProfile">
+        app:layout_constraintTop_toBottomOf="@id/viewGarisPutih_ProfileJemaatAdmin">
 
         <LinearLayout
-            android:id="@+id/llNomerTelefon_EditProfile"
+            android:id="@+id/llNomerTelefon_ProfileJemaatAdmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -108,7 +107,7 @@
             android:layout_marginBottom="25dp">
 
             <TextView
-                android:id="@+id/tvNomerTelefon_EditProfile"
+                android:id="@+id/tvNomerTelefon_ProfileJemaatAdmin"
                 android:layout_width="145dp"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_telefon"
@@ -118,7 +117,7 @@
                 android:textSize="19sp" />
 
             <EditText
-                android:id="@+id/etIsiNomerTelefon_EditProfile"
+                android:id="@+id/etIsiNomerTelefon_ProfileJemaatAdmin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -130,7 +129,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llTanggalLahir_EditProfile"
+            android:id="@+id/llTanggalLahir_ProfileJemaatAdmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -138,7 +137,7 @@
             android:layout_marginBottom="25dp">
 
             <TextView
-                android:id="@+id/tvTanggalLahir_EditProfile"
+                android:id="@+id/tvTanggalLahir_ProfileJemaatAdmin"
                 android:layout_width="145dp"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_birthday"
@@ -148,7 +147,7 @@
                 android:textSize="19sp" />
 
             <EditText
-                android:id="@+id/etIsiTanggalLahir_EditProfile"
+                android:id="@+id/etIsiTanggalLahir_ProfileJemaatAdmin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -160,7 +159,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llAlamat_EditProfile"
+            android:id="@+id/llAlamat_ProfileJemaatAdmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -168,7 +167,7 @@
             android:layout_marginBottom="25dp">
 
             <TextView
-                android:id="@+id/tvAlamat_EditProfile"
+                android:id="@+id/tvAlamat_ProfileJemaatAdmin"
                 android:layout_width="145dp"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_address"
@@ -178,7 +177,7 @@
                 android:textSize="19sp" />
 
             <EditText
-                android:id="@+id/etIsiAlamat_EditProfile"
+                android:id="@+id/etIsiAlamat_ProfileJemaatAdmin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -190,7 +189,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/llJenisKelamin_EditProfile"
+            android:id="@+id/llJenisKelamin_ProfileJemaatAdmin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -198,7 +197,7 @@
             android:layout_marginBottom="25dp">
 
             <TextView
-                android:id="@+id/tvJenisKelamin_EditProfile"
+                android:id="@+id/tvJenisKelamin_ProfileJemaatAdmin"
                 android:layout_width="145dp"
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_jeniskelamin"
@@ -208,7 +207,7 @@
                 android:textSize="19sp" />
 
             <EditText
-                android:id="@+id/etIsiJenisKelamin_EditProfile"
+                android:id="@+id/etIsiJenisKelamin_ProfileJemaatAdmin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -219,56 +218,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/llPassword_EditProfile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginStart="20dp"
-            android:layout_marginBottom="25dp">
-
-            <TextView
-                android:id="@+id/tvPassword_EditProfile"
-                android:layout_width="145dp"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/ic_password"
-                android:drawablePadding="15dp"
-                android:text="@string/password"
-                android:textColor="@color/orange"
-                android:textSize="19sp" />
-
-            <EditText
-                android:id="@+id/etIsiPassword_EditProfile"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@null"
-                android:text="@string/isipassword"
-                android:textColor="@color/white"
-                android:textSize="19sp"
-                android:layout_marginStart="20dp"/>
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:background="@drawable/ic_closedeye"
-                android:layout_marginStart="17dp"/>
-
-        </LinearLayout>
-
     </LinearLayout>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnSimpan_EditProfile"
-        android:layout_width="150dp"
-        android:layout_height="34dp"
-        android:text="@string/btnSimpan"
-        android:textAllCaps="false"
-        android:background="@drawable/style_button"
-        android:layout_marginBottom="70dp"
-        android:layout_marginStart="200dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

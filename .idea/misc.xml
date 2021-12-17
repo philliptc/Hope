@@ -10,8 +10,10 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/drawable/style_edit_text.xml" value="0.290625" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_cancel_registrasi_ibadah.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_detail_jadwal_pelayan.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_detail_jadwal_pelayan_admin.xml" value="0.2604166666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_detail_registrasi_ibadah.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_detail_registrasi_ibadah_admin.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_edit_detail_jadwal_ibadah_admin.xml" value="0.2604166666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_edit_jadwal_ibadah_admin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_edit_profile_jemaat.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_edit_sesi_ibadah.xml" value="0.27447916666666666" />
@@ -19,21 +21,25 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_email_received.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_forgot_password.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_home_page.xml" value="0.144" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_profile_jemaat_admin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_signin.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_signup.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_welcome_page.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/dialog_box_batal_registrasi.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/dialog_box_cancel_registrasi.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_daftar_jemaat.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_jadwal_ibadah.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_jadwal_ibadah_admin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_jadwal_pelayan.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_jadwal_pelayan_admin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_profile.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_profileJemaat.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_profilejemaat.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_q_r_scanner.xml" value="0.15104166666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_qr_scanner.xml" value="0.3433224755700326" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/fragment_registrasi_ibadah.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/item_daftarjemaat.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/item_editjadwalibadah.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/item_jadwalibadah.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/item_jadwalpelayan.xml" value="0.27447916666666666" />

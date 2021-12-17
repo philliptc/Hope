@@ -62,7 +62,7 @@
                     android:drawableStart="@drawable/ic_telefon"
                     android:drawablePadding="15dp"
                     android:text="@string/nomortelefon"
-                    android:textColor="@color/white"
+                    android:textColor="@color/orange"
                     android:textColorHint="@color/white"
                     android:textSize="19sp" />
 
@@ -92,7 +92,7 @@
                     android:drawableStart="@drawable/ic_birthday"
                     android:drawablePadding="15dp"
                     android:text="@string/tanggallahir"
-                    android:textColor="@color/white"
+                    android:textColor="@color/orange"
                     android:textColorHint="@color/white"
                     android:textSize="19sp" />
 
@@ -122,7 +122,7 @@
                     android:drawableStart="@drawable/ic_address"
                     android:drawablePadding="15dp"
                     android:text="@string/alamat"
-                    android:textColor="@color/white"
+                    android:textColor="@color/orange"
                     android:textColorHint="@color/white"
                     android:textSize="19sp" />
 
@@ -152,7 +152,7 @@
                     android:drawableStart="@drawable/ic_jeniskelamin"
                     android:drawablePadding="15dp"
                     android:text="@string/jeniskelamin"
-                    android:textColor="@color/white"
+                    android:textColor="@color/orange"
                     android:textColorHint="@color/white"
                     android:textSize="19sp" />
 
@@ -182,7 +182,7 @@
                     android:drawableStart="@drawable/ic_password"
                     android:drawablePadding="15dp"
                     android:text="@string/password"
-                    android:textColor="@color/white"
+                    android:textColor="@color/orange"
                     android:textColorHint="@color/white"
                     android:textSize="19sp" />
 
