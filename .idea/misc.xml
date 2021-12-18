@@ -20,7 +20,8 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_edit_sesi_ibadah_admin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_email_received.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_forgot_password.xml" value="0.264" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_home_page.xml" value="0.144" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_home_page.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_home_page_admin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_profile_jemaat_admin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/activity_signin.xml" value="0.264" />
@@ -44,9 +45,11 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/item_jadwalibadah.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/item_jadwalpelayan.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/navigation_header.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/navigation_header_admin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/layout/signin_activity.xml" value="0.264" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/menu/menu_toolbar.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/menu/navigation_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/menu/navigation_menu.xml" value="0.4" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Hope/app/src/main/res/menu/navigation_menu_admin.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>

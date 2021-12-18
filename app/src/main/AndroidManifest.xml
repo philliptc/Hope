@@ -10,6 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hope">
         <activity
+            android:name=".jemaat.activity.mainActivity.KonfirmasiCheckInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".admin.activity.HomePageAdminActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
             android:name=".admin.activity.ProfileJemaatAdminActivity"
             android:exported="true" />
         <activity

@@ -3,22 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_registrasi"
+        <item android:id="@+id/nav_jadwalibadah"
             android:icon="@drawable/ic_add"
-            android:title="@string/registrasiibadah"/>
+            android:title="@string/jadwalibadah"/>
 
-        <item android:id="@+id/nav_jadwalpelayan"
+        <item android:id="@+id/nav_jadwalpelayan_admin"
             android:icon="@drawable/ic_calendar"
             android:title="@string/jadwalpelayan"/>
     </group>
 
     <group android:checkableBehavior="single">
-            <item android:id="@+id/nav_qrcode"
-                android:icon="@drawable/ic_qrcode"
-                android:title="@string/scanqr"/>
 
-            <item android:id="@+id/nav_profile"
-                android:icon="@drawable/ic_profile"
-                android:title="@string/profile"/>
+        <item android:id="@+id/nav_daftarjemaat"
+            android:icon="@drawable/ic_username_black"
+            android:title="@string/daftarjemaat"/>
     </group>
 </menu>
