@@ -46,6 +46,7 @@
             android:drawablePadding="34dp"
             android:hint="@string/namalengkap"
             android:inputType="text"
+            android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:backgroundTint="@color/white"/>
 
@@ -53,23 +54,12 @@
             android:id="@+id/etEmail_SignUp"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_email"
+            android:drawableStart="@drawable/ic_username"
             android:drawablePadding="34dp"
             android:hint="@string/input_email"
             android:inputType="textEmailAddress"
-            android:textColorHint="@color/white"
-            android:backgroundTint="@color/white"/>
-
-        <EditText
-            android:id="@+id/etUsername_SignUp"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_username"
-            android:drawablePadding="34dp"
-            android:hint="@string/username"
-            android:textColorHint="@color/white"
-            android:inputType="text"
             android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:backgroundTint="@color/white"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout

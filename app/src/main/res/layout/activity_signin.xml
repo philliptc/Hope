@@ -39,12 +39,12 @@
         app:layout_constraintTop_toBottomOf="@id/tvChurch_SignIn">
 
         <EditText
-            android:id="@+id/etUsername_SignIn"
+            android:id="@+id/etEmail_SignIn"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_username"
             android:drawablePadding="34dp"
-            android:hint="@string/username"
+            android:hint="@string/input_email"
             android:textColorHint="@color/white"
             android:inputType="text"
             android:textColor="@color/white"
@@ -65,7 +65,7 @@
                 android:drawablePadding="34dp"
                 android:hint="@string/password"
                 android:textColorHint="@color/white"
-                android:inputType="text"
+                android:inputType="textPassword"
                 android:textColor="@color/white"
                 android:backgroundTint="@color/white"/>
 

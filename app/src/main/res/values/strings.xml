@@ -70,4 +70,11 @@
     <string name="daftarnamajemaat">Daftar Nama Jemaat Terdaftar</string>
     <string name="btnTambahIbadah">Tambah Ibadah</string>
     <string name="daftarjemaat">Daftar Jemaat</string>
+    <string name="konfirmasicheckin">Konfirmasi Check In</string>
+    <string name="totaljemaat">Total Jemaat Hadir</string>
+    <string name="jumlahjemaathadir">0 / 100</string>
+    <string name="inpusuhu">Input Suhu</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="logout_berhasil">Logout Berhasil</string>
 </resources>

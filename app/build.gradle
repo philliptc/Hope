@@ -50,6 +50,9 @@ dependencies {
 //    implementation 'com.google.firebase:firebase-ml-vision:'
 //    implementation 'com.google.firebase:firebase-ml-vision-barcode-model:16.0.1'
     implementation 'com.google.mlkit:barcode-scanning:17.0.0'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+
 
 //navigation drawer
 //    implementation 'com.google.android.material:material:1.4.0' //udah ada di atas
